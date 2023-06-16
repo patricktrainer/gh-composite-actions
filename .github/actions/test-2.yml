@@ -1,0 +1,8 @@
+name: 'test two'
+description: 'this is the second test'
+runs:
+  using: 'composite'
+  steps:
+    - name: 'step two'
+      run: 'echo "hello world"'
+

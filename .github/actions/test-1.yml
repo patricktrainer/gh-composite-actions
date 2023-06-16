@@ -1,0 +1,10 @@
+name: 'test one'
+description: 'this is the first test'
+runs:
+  using: 'composite'
+  steps:
+    - name: 'step one'
+      run: 'echo "hey earth"'
+
+
+
