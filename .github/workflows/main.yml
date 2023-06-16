@@ -4,9 +4,9 @@ on: push
 
 jobs: 
   run-test-one:
-    uses: './.github/worflows/test-1.yml'
+    uses: './.github/worflows/test-1.yml@v1'
     
   run-test-two:
-    uses: './.github/worflows/test-2.yml'
+    uses: './.github/worflows/test-2.yml@v1'
 
 
