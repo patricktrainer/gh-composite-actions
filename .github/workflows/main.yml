@@ -3,9 +3,15 @@ name: 'one and two'
 on: push
 
 jobs: 
-  build:
+  run-test-one:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: ./.github/actions/test-one
-      - uses: ./.github/actions/test-two
+      - uses: .github/actions/test-one
+  
+  run-test-two:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: .github/actions/test-two
+    

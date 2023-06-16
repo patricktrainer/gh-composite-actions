@@ -4,7 +4,9 @@ runs:
   using: 'composite'
   steps:
     - name: 'step one'
-      run: 'echo "hey earth"'
+      run: echo "hey earth"
+      shell: bash
+      
 
 
 
