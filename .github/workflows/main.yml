@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: './actions/test one'
+      - uses: './actions/test-1.yml'
   
   run-test-two:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: './actions/test two'
+      - uses: './actions/test-2.yml'
     
