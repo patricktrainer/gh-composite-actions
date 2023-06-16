@@ -3,9 +3,9 @@ on: push
 
 jobs: 
   run-test-one:
-    uses: '.github/worflows/test-1.yml@main'
+    uses: 'patricktrainer/gh-composite-actions/.github/workflows/test-1.yml@main'
     
   run-test-two:
-    uses: '.github/worflows/test-2.yml@main'
+    uses: 'patricktrainer/gh-composite-actions/.github/workflows/test-2.yml@main'
 
 
