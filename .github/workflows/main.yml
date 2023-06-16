@@ -6,12 +6,12 @@ jobs:
   run-test-one:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: .github/actions/test-one
+      - uses: actions/checkout@v3
+      - uses: './actions/test one'
   
   run-test-two:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: .github/actions/test-two
+      - uses: actions/checkout@v3
+      - uses: './actions/test two'
     
