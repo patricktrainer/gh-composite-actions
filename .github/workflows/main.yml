@@ -1,12 +1,11 @@
 name: 'one and two'
-
 on: push
 
 jobs: 
   run-test-one:
-    uses: './.github/worflows/test-1.yml@v1'
+    uses: './.github/worflows/test-1.yml@main'
     
   run-test-two:
-    uses: './.github/worflows/test-2.yml@v1'
+    uses: './.github/worflows/test-2.yml@main'
 
 
